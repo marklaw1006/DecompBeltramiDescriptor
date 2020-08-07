@@ -37,6 +37,8 @@ Before you try to apply the proposed method to your data, you need to do the ima
 
 To do so, a sample registration process that could automatically generate the Beltrami Descriptor is included in the file ***sample_registration.m***. Note that by default this code registers frames one by one. Due to the absence of Parallel Computing Toolbox in the author's MATLAB version, he fails to make sure the code would work with *parfor*(but it should). Thus, users shall make the adjustment for parallel registration.
 
+Also note that in the ***sample_registration.m***, it assumes that all images are named from *1.png* to *\<N\>.png*. Adjust accordingly if that is not how you name the frames.
+
 After registration and stacking up the Beltrami Descriptors as mentioned in the paper, you shall have a *mat* file that stores this Beltrami Descriptor. By default, it is named ***mu.mat***, or you could change accordingly in ***main.m***.
 
 ##### 2. Parameters Tuning
