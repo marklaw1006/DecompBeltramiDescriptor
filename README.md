@@ -43,7 +43,7 @@ After registration and stacking up the Beltrami Descriptors as mentioned in the 
 
 ##### 2. Parameters Tuning
 
-Depending on the Beltrami Descriptor, there could be a need to tune the parameter `alpha` for the best performance and diffeomorphic property. Also, if you find that convergence is slow, you might also want to tune the `max_mu` in ***mfile/complex_rpca.m***.
+Depending on the Beltrami Descriptor, there could be a need to tune the parameter `lambda` for the best performance and diffeomorphic property. Also, if you find that convergence is slow, you might also want to tune the `max_mu` in ***mfile/complex_rpca.m***.
 
 ##### 3. Output Frames
 
